@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/no_confirm"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_device1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/yes_confirm"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_device2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/broad_press"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_statistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="@string/total_sta"/>
+
+    <TextView
+        android:id="@+id/tv_data_sta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/byte_sta" />
+
+    <EditText
+        android:id="@+id/ble_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/define_order"
+        android:maxLines="3" />
+
+    <ListView
+        android:id="@+id/ble_device_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">DCBleAdvertise</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="label_scale">Weight(Kg):</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="weight">00</string>
+    <string name="title_devices">BLEScan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="data_dbg">debug info:</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">ScanStart</string>
+    <string name="menu_stop">ScanStop</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_filter">Filter</string>
+    
+    <color name="green">#5500ff00</color>
+
+
+    <string name="no_confirm">无确认包广播</string>
+    <string name="yes_confirm">有确认包广播</string>
+    <string name="broad_press">广播压力测试</string>
+    <string name="total_sta">总统计</string>
+    <string name="byte_sta">按字节统计</string>
+    <string name="define_order">自定义指令</string>
+</resources>
